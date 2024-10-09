@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.boxBody {
+display: flex;
+height: 100vh;
+}
+.box {
+ display: flex;
+ gap: 14px;
+}
+.leftBox {
+ background-color: #afafaf;
+ width: 300px;
+ height: 550px;
+}
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.topBox {
+    background-color: #afafaf;
+    width: 600px;
+    height: 268px;
+}
+.bottomBox {
+    background-color: #afafaf;
+    width: 600px;
+    height: 268px;
+}
